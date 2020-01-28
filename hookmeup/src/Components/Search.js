@@ -19,8 +19,8 @@ const Search = (props) => {
 
     return (
         <form className="search">
-            <input value={searchValue} onChange={handleSearchInput} type="text" />
-            <input onClick={invokeSearchFunction} type="submit" value="SEARCH" />
+            <input value={searchValue} onChange={handleSearchInput} type="text" placeholder="Search..." />
+            <input onClick={invokeSearchFunction} type="submit" value="Enter" />
         </form>
     );
 }
