@@ -1,18 +1,20 @@
 import React from 'react';
-import defaultMoviePoster from '../Assets/defaultMoviePoster.jpg'
 
-const defaultMoviePoster = { defaultMoviePoster }
+const defaultMoviePoster = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQvfIGzBDJxU_i9-vePbx-aHwwIYd20Qe9a5p491AxSAnl7K4n&s"
 
 const Movie = ({ movie }) => {
-    const poster = movie.poster === "N/A" ? defaultMoviePoster : movie.poster;
+
+    const poster = movie.Poster === "N/A" ? defaultMoviePoster : movie.Poster;
 
     return (
         <div className='movie'>
-            <h2>{movie.title}</h2>
+            <h2>{movie.Title}</h2>
             <div>
-                <img width='250' alt='{movie.title}' src={poster} />
+                <img width='250' alt={`${movie.Title}`} src={poster} />
             </div>
             <p>({movie.Year})</p>
         </div>
     )
 }
+
+export default Movie
