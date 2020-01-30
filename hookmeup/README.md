@@ -1,6 +1,6 @@
 This project is a follow along from a freecodecamp tutorial which can be found here "https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/".
 
-The purpose of this project is to build a movie search application (the hookup) using the react hooks API. This is the first time I've used hooks in a react project and I'm excited about the possibilites.
+The purpose of this project is to build a movie search application (the hookup) using the react hooks API. This is the first time I've used hooks in a react project and I'm excited about the possibilites. There will be some minor style changes but core functionality is the same.
 
 The usual create react app read me is below.
 
